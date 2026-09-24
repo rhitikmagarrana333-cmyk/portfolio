@@ -2,7 +2,7 @@ import axios from "axios"
 
 
 const api = axios.create({
-    baseURL : "http://localhost:3000/api/cart",
+    baseURL : "https://portfolio-1jij.onrender.com/api/cart",
     withCredentials : true
 })
 
